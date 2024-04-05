@@ -16,5 +16,16 @@ namespace Test
         {
             InitializeComponent();
         }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            label1.Text = "háidhahisbdhiasbhidbashidbhiasbdhiabshidbhiasbdhiassd";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "háidhahisbdhiasbhidbashidbhiasbdhiabshidbhiasbdhiassd";
+
+        }
     }
 }
